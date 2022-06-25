@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.boxx{
+    display: flex;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 12px;
+    color: rgb(247, 243, 243);
+    font-family: fantasy;
+    font-size: 30px;
+    margin-right: 55px;
+}
+#logo img{
+    height: 50px;
+}
+#navbar{
+    display: flex;
+    background-color: #3d4865;
+    padding: 15px 14px;
+}
+.navedit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.navbaredit{
+    display: flex;
+}
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 25px;
+    font-family: fantasy;
+    color: wheat;
+    font-size: 23px;
+}
+#navbar li a:hover{
+    color: rgb(2, 1, 1);
+    font-size: 20px;
+}
+#container{
+    background-color: #617489;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    /* height: 500px; */
+}
+.box{
+    background-color: aqua;
+}
+.form{
+    background-color: rgb(154 172 179);
+    /* margin: 10px 367px; */
+    border: 2px solid;
+    margin-top: 30px;
+    /* width: 20%; */
+    border-radius: 11px;
+    background-color:rgb(129 171 221);
+}
+.form h3{
+    font-size: 19px;
+    padding: 12px;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+.form li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    border: 2px solid;
+    background-color: #7bd1ff;
+}
+.form ul{
+    margin-top: 70px;
+}
+#container h1{
+    font-family: initial;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    color: black;
+
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 32%;
+    height: 290px;
+    margin: 19px 23px;
+    display: inline-block;
+    background-color: rgb(129 171 221);
+    
+
+}
+.card h3{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    color: brown;
+    font-size: 19px;
+    /* padding: 4px 15px; */
+    margin: 12px;
+    
+}
+
+.cardbox{
+    align-items: center;
+    height: 185px;
+    background-color: #7bd1ff;
+    
+}
+.card img{
+    height: 120px;
+    padding: 3px 8px;
+    margin: 2px 6px;
+}
+.card img{
+    height: inherit;
+}
+#sponsorsection{
+    height: 400px;
+    background-color: #27688b69;
+    margin-top: 0px;
+}
+#sponsorsection h2{
+    font-family: inherit;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 36px;
+}
+#sponsors{
+    height: 150px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+}
+.spIMG{
+    height: 80%;
+    margin: 60px;
+}
+/* #foot{
+    display: flex;
+    background-color: #7694ad;
+    min-height: 15vh;
+    flex-direction: column;
+}
+.navbareditt{
+    display: flex;
+    list-style: none;
+    margin: 35px;
+}
+.navbareditt li a{
+    margin: 20px;
+    padding: 20px;
+    font-size: 40px;
+}
+.navbareditt p{
+    font-size: 40px;
+} */
+
+footer {
+  background-color: #7291a9;
+  display: flex;
+  width: 100%;
+  text-transform: capitalize;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top:0px;
+  height: 215px;
+}
+
+.column {
+  width: 25%;
+  float: left;
+  padding: 20px;
+
+}
+#logoo img{
+    height: 50px;
+}
+.column {
+    display: flex;
+}
+.column ul{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+.column ul li a {
+    font-size: 35px;
+    margin: 10px;
+    padding: 10px;
+}
+.column h3{
+    font-size: 35px;
+    margin: 10px;
+    padding: 10px;
+}

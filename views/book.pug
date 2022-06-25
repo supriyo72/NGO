@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    link(rel="stylesheet" media="screen and (max-width: 2000px)" href="static/response.css")
+    title  Supriyo NGO Website
+    style
+      include ../static/book.css
+  body
+    div.cont
+      div.edit
+        h1 BOOK A DEMO
+        form(action="/book", method="post",class="myform")
+            input(type="text",class="myinput",name="name",placeholder="Enter your name")
+            input(type="email",class="myinput",name="email",placeholder="Enter your email-id")
+            input(type="phone",class="myinput",name="phone",placeholder="Enter your phone-no")
+            button(class="btn")
+                  | Submit
+            li #[a(href="/") BACK TO HOME]
